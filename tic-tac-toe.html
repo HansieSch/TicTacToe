@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-za">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div class="disabled tic-tac-toe">
+        <span class="play-again-option">Play again? <button onclick="resetTicTacToe();">Yes</button></span>
+
+        <div data-id="0 0"></div> <div data-id="0 1"></div> <div data-id="0 2"></div>
+
+        <div data-id="1 0"></div> <div data-id="1 1"></div> <div data-id="1 2"></div>
+
+        <div data-id="2 0"></div> <div data-id="2 1"></div> <div data-id="2 2"></div>
+        
+    </div>
+    
+    <h2 class="instructions">Choose your symbol.</h2>
+    <div class="symbols">
+        <div data-id="x" class="symbol-identifier">X</div>
+        <div data-id="o" class="symbol-identifier">O</div>
+    </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
